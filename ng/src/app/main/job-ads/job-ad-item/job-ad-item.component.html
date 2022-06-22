@@ -1,0 +1,35 @@
+<article>
+
+    <h2> {{ jobad.title }} </h2>
+    <p class="name" *ngIf="organizationName">{{organizationName}}</p>
+
+    <p class="info displayIB">{{jobad.category}}, {{jobad.type}}</p>
+
+    <p class="description">{{ jobad.description }}</p>
+  <p class="description" *ngIf="jobad.salary > 0">{{ jobad.salary }}$</p>
+
+
+  <div class="centered" *ngIf="checkUser()">
+        <div class="buttonDiv" *ngIf="!checkRejected() && !checkApproved()">
+            <div *ngIf="checkApplied(); else elseBlock2">
+                <button [routerLink]="['/job-ads', 'apply', jobad.id]">Edit</button>
+                <button (click)="onWithdraw()" >Withdraw</button>
+            </div>
+            <div><ng-template #elseBlock2><button [routerLink]="['/job-ads', 'apply', jobad.id]">Apply</button></ng-template></div>
+        </div>
+        <div class="textPad" *ngIf="checkApproved()">
+            <p>You are approved for the job. You will be contacted shortly!</p>
+        </div>
+        <div class="textPad" *ngIf="checkRejected()">
+            <p>We are sorry, you are not approved for the job!</p>
+        </div>
+    </div>
+      <div class="centered orgButtons" *ngIf="checkEmployer()">
+
+        <button  [routerLink]="['/job-ads', 'edit', jobad.id]">Edit</button>
+        <button style="width: 170px;" [routerLink]="['/my-job-ads', 'candidates', jobad.id]">Check Candidates</button>
+        <button (click)="onDelete()">Delete</button>
+      </div>
+
+
+</article>

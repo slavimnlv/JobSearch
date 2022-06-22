@@ -1,0 +1,62 @@
+<h2>Update Your Account</h2>
+<form *ngIf="formGroup" [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+  <div>
+    <div class="labels">
+      <label for="name">Name</label>
+    </div>
+    <input type="text"
+           id="name"
+           formControlName="name">
+    <small *ngIf="nameFormControl?.touched && nameFormControl?.invalid && nameFormControl?.errors?.['required']">
+      This field is required!
+    </small>
+    <small *ngIf="nameFormControl?.touched && nameFormControl?.invalid && nameFormControl?.errors?.['minlength']">
+      This field should containg min 1 characters!
+    </small>
+    <small *ngIf="nameFormControl?.touched && nameFormControl?.invalid && nameFormControl?.errors?.['maxlength']">
+      This field should containg max 100 characters!
+    </small>
+  </div>
+
+  <div>
+    <div class="labels">
+      <label for="email">Email</label>
+    </div>
+    <input type="text"
+           id="email"
+           formControlName="email">
+    <small *ngIf="emailFormControl?.touched && emailFormControl?.invalid && emailFormControl?.errors?.['required']">
+      This field is required!
+    </small>
+    <small *ngIf="emailFormControl?.touched && emailFormControl?.invalid && emailFormControl?.errors?.['minlength']">
+      This field should containg min 5 characters!
+    </small>
+    <small *ngIf="emailFormControl?.touched && emailFormControl?.invalid && emailFormControl?.errors?.['maxlength']">
+      This field should containg max 100 characters!
+    </small>
+  </div>
+
+  <div>
+    <div class="labels">
+      <label for="password">Password</label>
+    </div>
+    <input type="password"
+           id="password"
+           formControlName="password">
+    <small *ngIf="passFormControl?.touched && passFormControl?.invalid && passFormControl?.errors?.['required']">
+      This field is required!
+    </small>
+    <small *ngIf="passFormControl?.touched && passFormControl?.invalid && passFormControl?.errors?.['minlength']">
+      This field should contain min 5 characters!
+    </small>
+    <small *ngIf="passFormControl?.touched && passFormControl?.invalid && passFormControl?.errors?.['maxlength']">
+      This field should contain max 50 characters!
+    </small>
+  </div>
+  <div>
+        <button type="submit" [disabled]="!formGroup.valid">Update Account</button>
+    </div>
+</form>
+<div>
+    <button (click)="onDelete()">Delete Account</button>
+</div>

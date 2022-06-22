@@ -1,0 +1,38 @@
+D:\Uni\DA\FinalProject\ApplicationServices\bin\Debug\net6.0\ApplicationServices.deps.json
+D:\Uni\DA\FinalProject\ApplicationServices\bin\Debug\net6.0\ApplicationServices.dll
+D:\Uni\DA\FinalProject\ApplicationServices\bin\Debug\net6.0\ref\ApplicationServices.dll
+D:\Uni\DA\FinalProject\ApplicationServices\bin\Debug\net6.0\ApplicationServices.pdb
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.AssemblyReference.cache
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfoInputs.cache
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfo.cs
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.CoreCompileInputs.cache
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ApplicationServices.dll
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ref\ApplicationServices.dll
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ApplicationServices.pdb
+D:\Uni\DA\FinalProject\ApplicationServices\bin\Debug\net6.0\ApplicationServices.runtimeconfig.json
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ApplicationServices.genruntimeconfig.cache
+D:\Uni\DA\FinalProject\ApplicationServices\bin\Debug\net6.0\Data.dll
+D:\Uni\DA\FinalProject\ApplicationServices\bin\Debug\net6.0\Data.pdb
+D:\Uni\DA\FinalProject\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.CopyComplete
+D:\Uni\DA\FinalProject\ApplicationServices\bin\Debug\net6.0\Repositories.dll
+D:\Uni\DA\FinalProject\ApplicationServices\bin\Debug\net6.0\Repositories.pdb
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\bin\Debug\net6.0\ApplicationServices.deps.json
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\bin\Debug\net6.0\ApplicationServices.runtimeconfig.json
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\bin\Debug\net6.0\ApplicationServices.dll
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\bin\Debug\net6.0\ref\ApplicationServices.dll
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\bin\Debug\net6.0\ApplicationServices.pdb
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\bin\Debug\net6.0\Data.dll
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\bin\Debug\net6.0\Repositories.dll
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\bin\Debug\net6.0\Data.pdb
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\bin\Debug\net6.0\Repositories.pdb
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.AssemblyReference.cache
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfoInputs.cache
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ApplicationServices.AssemblyInfo.cs
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.CoreCompileInputs.cache
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ApplicationServices.csproj.CopyComplete
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ApplicationServices.dll
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ref\ApplicationServices.dll
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ApplicationServices.pdb
+D:\Uni\DA\job search applicaiton\dotnet\ApplicationServices\obj\Debug\net6.0\ApplicationServices.genruntimeconfig.cache

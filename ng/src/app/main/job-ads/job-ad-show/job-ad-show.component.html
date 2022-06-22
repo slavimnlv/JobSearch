@@ -1,0 +1,43 @@
+<section class="filter" *ngIf="!isMy">
+  <select [(ngModel)]="selectedCategory">
+    <option hidden disabled selected value> ----- Select Category ----- </option>
+    <option value="Health">Health</option>
+    <option value="Finance">Finance</option>
+    <option value="Business">Business</option>
+    <option value="Education">Education</option>
+    <option value="Law">Law</option>
+    <option value="Communication">Communication</option>
+    <option value="Arts">Arts</option>
+    <option value="Technology">Technology</option>
+    <option value="Sales">Sales</option>
+    <option value="Administration">Administration</option>
+    <option value="Government">Government</option>
+  </select>
+
+
+<select [(ngModel)]="selectedType">
+  <option hidden disabled selected value> ----- Select Type ----- </option>
+  <option value="FullTime">Full-Time</option>
+  <option value="PartTime">Part-Time</option>
+  <option value="Remote">Remote</option>
+</select>
+
+<button (click)="filter()">Filter</button>
+<button (click)="clear()">Clear</button>
+
+</section>
+<section>
+
+   <div class="centered"><button class="createButton" *ngIf="checkEmployer() && isMy" routerLink="/job-ads/create">Create New Job Ad</button></div>
+
+    <div *ngIf="errorMessage">{{errorMessage}}</div>
+
+ <app-job-ad-item *ngFor="let jobad of jobads; let i = index"
+                [jobad]="jobad"
+                (JobAdWithdraw)="onJobAdWithdraw($event)"
+                (JobAdDeleted)="onJobAdDelete($event)"></app-job-ad-item>
+</section>
+
+<section class="pager" *ngIf="!isMy">
+  <button *ngFor="let i of pages" (click)="changePage(i)"><span [ngStyle]="{'color':pageNumber === i ? 'red' : 'black'}">{{i}}</span></button>
+</section>

@@ -1,0 +1,24 @@
+<h2>Application</h2>
+<form *ngIf="formGroup" [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+  <div>
+    <div class="labels">
+      <label for="coverLetter">Cover Letter</label>
+    </div>
+    <textarea type="text"
+           id="coverLetter"
+              formControlName="coverLetter"> </textarea>
+  </div>
+  <small *ngIf="letterFormControl?.touched && letterFormControl?.invalid && letterFormControl?.errors?.['required']">
+    This field is required!
+  </small>
+  <small *ngIf="letterFormControl?.touched && letterFormControl?.invalid && letterFormControl?.errors?.['minlength']">
+    This field should contain min 50 characters!
+  </small>
+  <small *ngIf="letterFormControl?.touched && letterFormControl?.invalid && letterFormControl?.errors?.['maxlength']">
+    This field should contain max 500 characters!
+  </small>
+  <div>
+    <button type="submit" [disabled]="!formGroup.valid">Submit</button>
+  </div>
+</form>
+

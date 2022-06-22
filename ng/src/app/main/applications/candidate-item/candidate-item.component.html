@@ -1,0 +1,18 @@
+<article>
+
+    <div><p class="col1"> Name: </p> <p class="col2">{{ userApplication.name }}</p></div>
+    <div class="mrgB"><p class="col1"> Email: </p> <p class="col2">{{ userApplication.email }}</p></div>
+    <div class="mrgB"><p class="col1"> Cover Letter: </p> <p class="col2">{{userApplication.coverLetter}}</p></div>
+
+  <div *ngIf="!checkApproved() && !checkRejected()">
+    <button (click)="onAccept()">Accept Candidate</button>
+    <button (click)="onDecline()">Decline Candidate</button>
+  </div>
+  <div *ngIf="checkRejected()">
+    <button (click)="onAccept()">Accept Candidate</button>
+  </div>
+  <div *ngIf="checkApproved()">
+    <button (click)="onDecline()">Decline Candidate</button>
+  </div>
+
+</article>

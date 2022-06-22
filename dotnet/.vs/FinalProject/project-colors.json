@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4363b2ec-e877-4cea-ae1f-1195148b5bbb": {
+      "ProjectGuid": "4363b2ec-e877-4cea-ae1f-1195148b5bbb",
+      "DisplayName": "FinalProjectAPI",
+      "ColorIndex": 0
+    },
+    "7f139b5c-13db-40aa-a5ee-65a18ec81d2e": {
+      "ProjectGuid": "7f139b5c-13db-40aa-a5ee-65a18ec81d2e",
+      "DisplayName": "ApplicationServicesO",
+      "ColorIndex": 1
+    },
+    "9ac70f19-ad54-408d-aee0-27a6d7ad0766": {
+      "ProjectGuid": "9ac70f19-ad54-408d-aee0-27a6d7ad0766",
+      "DisplayName": "DataO",
+      "ColorIndex": 2
+    },
+    "8c0d89d5-3980-48da-8e93-3f5e9b60b4ba": {
+      "ProjectGuid": "8c0d89d5-3980-48da-8e93-3f5e9b60b4ba",
+      "DisplayName": "RepositoriesO",
+      "ColorIndex": 3
+    },
+    "88a0fb8b-93e7-434a-8971-bdb0b30614d1": {
+      "ProjectGuid": "88a0fb8b-93e7-434a-8971-bdb0b30614d1",
+      "DisplayName": "ProjectAPI",
+      "ColorIndex": 4
+    },
+    "88cbaa1a-19fa-4fba-88d3-867d3f58eb6c": {
+      "ProjectGuid": "88cbaa1a-19fa-4fba-88d3-867d3f58eb6c",
+      "DisplayName": "Data",
+      "ColorIndex": 5
+    },
+    "a84b2038-45e1-4d9b-b441-d3b664a76ab9": {
+      "ProjectGuid": "a84b2038-45e1-4d9b-b441-d3b664a76ab9",
+      "DisplayName": "ApplicationServices",
+      "ColorIndex": 6
+    },
+    "01025057-960e-434c-810e-3da6004d13c7": {
+      "ProjectGuid": "01025057-960e-434c-810e-3da6004d13c7",
+      "DisplayName": "Repositories",
+      "ColorIndex": 7
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 8
+}

@@ -1,0 +1,40 @@
+div {
+  text-align: center;
+  margin-bottom: 10px;
+}
+form {
+  margin-top: 55px;
+  text-align: center;
+}
+h2 {
+  margin-top: 140px;
+  text-align: center;
+}
+.labels {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  vertical-align: top;
+
+}
+button {
+  width: 90px;
+  margin-top: 20px;
+  font-size: 16px;
+  background: #474747;
+  color: white;
+  border-radius: 5px;
+}
+button:hover {
+  background: #808080;
+}
+input {
+  width: 200px;
+}
+select {
+  width: 210px;
+}
+small {
+  display: block;
+  color: red;
+}

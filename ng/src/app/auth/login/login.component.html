@@ -1,0 +1,23 @@
+
+<h2>Login</h2>
+
+<div>
+    <form [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+        <div>
+            <input type="text"
+             placeholder="Email"
+             formControlName="email">
+        </div>
+        <div>
+            <input type="password"
+             placeholder="Password"
+             formControlName="password">
+        </div>
+        <div>
+            <button type="submit" [disabled]="!formGroup.valid">Login</button>
+        </div>
+      <div class="link">
+        <p>You don't have an account?  <a routerLink="/auth/register" routerLinkActive="active">Register!</a></p>
+      </div>
+    </form>
+</div>

@@ -1,0 +1,34 @@
+D:\Uni\DA\FinalProject\Repositories\bin\Debug\net6.0\Repositories.deps.json
+D:\Uni\DA\FinalProject\Repositories\bin\Debug\net6.0\Repositories.dll
+D:\Uni\DA\FinalProject\Repositories\bin\Debug\net6.0\ref\Repositories.dll
+D:\Uni\DA\FinalProject\Repositories\bin\Debug\net6.0\Repositories.pdb
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\Repositories.dll
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\ref\Repositories.dll
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\Repositories.pdb
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+D:\Uni\DA\FinalProject\Repositories\bin\Debug\net6.0\Repositories.runtimeconfig.json
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\Repositories.genruntimeconfig.cache
+D:\Uni\DA\FinalProject\Repositories\bin\Debug\net6.0\Data.dll
+D:\Uni\DA\FinalProject\Repositories\bin\Debug\net6.0\Data.pdb
+D:\Uni\DA\FinalProject\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\bin\Debug\net6.0\Repositories.deps.json
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\bin\Debug\net6.0\Repositories.runtimeconfig.json
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\bin\Debug\net6.0\Repositories.dll
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\bin\Debug\net6.0\ref\Repositories.dll
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\bin\Debug\net6.0\Repositories.pdb
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\bin\Debug\net6.0\Data.dll
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\bin\Debug\net6.0\Data.pdb
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\Repositories.dll
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\ref\Repositories.dll
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\Repositories.pdb
+D:\Uni\DA\job search applicaiton\dotnet\Repositories\obj\Debug\net6.0\Repositories.genruntimeconfig.cache

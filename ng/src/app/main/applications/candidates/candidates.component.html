@@ -1,0 +1,34 @@
+
+<h2>Candidates</h2>
+
+<section>
+
+  <app-candidate-item *ngFor="let userApplication of users"
+                      [userApplication]="userApplication"
+                      (Accepted)="onCandidateAccept($event)"
+                      (Declined)="onCandidateDecline($event)">
+  </app-candidate-item>
+
+</section>
+
+<h2>Selected Job Ad Candidates</h2>
+
+<section>
+
+  <app-candidate-item *ngFor="let userApplication of approvedUsers"
+                      [userApplication]="userApplication"
+                      (Declined)="onCandidateDeclineFromApproved($event)">
+  </app-candidate-item>
+
+</section>
+
+<h2>Rejected Job Ad Candidates</h2>
+
+<section>
+
+  <app-candidate-item *ngFor="let userApplication of rejectedUsers"
+                      [userApplication]="userApplication"
+                      (Accepted)="onCandidateAcceptFromRejected($event)"
+  ></app-candidate-item>
+
+</section>

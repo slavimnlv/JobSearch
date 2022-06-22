@@ -1,0 +1,29 @@
+<nav>
+    <ul>
+      <div *ngIf="logged()">
+        <li>
+          <a routerLink="/job-ads" routerLinkActive="active">Job Ads</a>
+        </li>
+
+        <li>
+          <a routerLink="/my-job-ads" routerLinkActive="active">My Job Ads</a>
+        </li>
+
+        <li>
+          <a routerLink="/account" routerLinkActive="active">My Account</a>
+        </li>
+
+        <li>
+          <a href="" (click)="onLogout()">Logout</a>
+        </li>
+      </div>
+      <div *ngIf="!logged()">
+        <li>
+          <a routerLink="/auth/login" routerLinkActive="active">Login</a>
+        </li>
+        <li>
+          <a routerLink="/auth/registration" routerLinkActive="active">Register</a>
+        </li>
+      </div>
+    </ul>
+</nav>

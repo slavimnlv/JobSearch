@@ -1,0 +1,15 @@
+article {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 20px;
+  text-align: center;
+  background-color: #4e9350;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 1px -1px 1px 1px rgba(0, 0, 0, 0.23);
+  p {
+    color: white;
+  }
+}

@@ -1,0 +1,77 @@
+<h2>{{jobad.id ? 'Update Job Ad' : 'Create New Job Ad'}}</h2>
+<form *ngIf="formGroup" [formGroup]="formGroup" (ngSubmit)="onSubmit()">
+    <div>
+        <div class="labels"><label for="title">Title</label></div>
+        <input type="text"
+                id="title"
+                placeholder="Title"
+                formControlName="title">
+        <small *ngIf="titleFormControl?.touched && titleFormControl?.invalid && titleFormControl?.errors?.['required']">
+            This field is required!
+        </small>
+      <small *ngIf="titleFormControl?.touched && titleFormControl?.invalid && titleFormControl?.errors?.['minlength']">
+        This field should contain min 10 characters!
+      </small>
+      <small *ngIf="titleFormControl?.touched && titleFormControl?.invalid && titleFormControl?.errors?.['maxlength']">
+        This field should contain max 100 characters!
+      </small>
+    </div>
+    <div>
+        <div class="labels"><label for="description">Description</label></div>
+        <input type="text"
+                id="description"
+                placeholder="Job Description"
+                formControlName="description">
+        <small *ngIf="descriptionFormControl?.touched && descriptionFormControl?.invalid && descriptionFormControl?.errors?.['required']">
+            This field is required!
+        </small>
+      <small *ngIf="descriptionFormControl?.touched && descriptionFormControl?.invalid && descriptionFormControl?.errors?.['minlength']">
+        This field should contain min 50 characters!
+      </small>
+      <small *ngIf="descriptionFormControl?.touched && descriptionFormControl?.invalid && descriptionFormControl?.errors?.['maxlength']">
+        This field should contain max 500 characters!
+      </small>
+    </div>
+    <div>
+        <div class="labels"><label for="type">Type</label></div>
+        <select name="types" id="types" formControlName="type">
+            <option hidden disabled selected value> ----- Select Type ----- </option>
+            <option value="FullTime">Full-Time</option>
+            <option value="PartTime">Part-Time</option>
+            <option value="Remote">Remote</option>
+          </select>
+        <small *ngIf="typeFormControl?.touched && typeFormControl?.invalid && typeFormControl?.errors?.['required']">
+            This field is required!
+        </small>
+    </div>
+    <div>
+        <div class="labels"> <label for="category">Category</label></div>
+        <select name="categories" id="categories" formControlName="category">
+            <option hidden disabled selected value> ----- Select Category ----- </option>
+            <option value="Health">Health</option>
+            <option value="Finance">Finance</option>
+            <option value="Business">Business</option>
+            <option value="Education">Education</option>
+            <option value="Law">Law</option>
+            <option value="Communication">Communication</option>
+            <option value="Arts">Arts</option>
+            <option value="Technology">Technology</option>
+            <option value="Sales">Sales</option>
+            <option value="Administration">Administration</option>
+            <option value="Goverment">Goverment</option>
+          </select>
+        <small *ngIf="categoryFormControl?.touched && categoryFormControl?.invalid && categoryFormControl?.errors?.['required']">
+             This field is required!
+        </small>
+    </div>
+  <div>
+    <div class="labels"><label for="salary">Salary</label></div>
+    <input type="text"
+           id="salary"
+           placeholder="Salary"
+           formControlName="salary">
+  </div>
+    <div>
+        <button type="submit" [disabled]="!formGroup.valid">Save</button>
+    </div>
+</form>
